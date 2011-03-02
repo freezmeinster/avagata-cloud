@@ -65,6 +65,19 @@ if ( ! function_exists('base_url'))
 	}
 }
 
+if ( ! function_exists('asset_url'))
+{
+	function asset_url()
+	{
+		$CI =& get_instance();
+		$base = $CI->config->item('base_url');
+		$asset = $CI->config->item('asset_dir');
+		$asset_url = "$base/$asset";
+		return $asset_url;
+	}
+}
+
+
 // ------------------------------------------------------------------------
 
 /**
