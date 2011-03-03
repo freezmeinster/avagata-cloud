@@ -19,6 +19,11 @@ footer, #push {
     height: 50px; /* #push must be the same height as footer */
 }
 
+#logo{
+	float: right;
+	padding-top: 1px;
+}
+
 /**
  * Clearfix
  */
@@ -41,6 +46,7 @@ html[xmlns] .clearfix {
  
 * html .clearfix {
     height: 1%;
+    width: 10%;
 }
 
 .clear {
@@ -216,6 +222,12 @@ div#linebreak {
     margin: 0;
     line-height: 50px;
     text-shadow: 1px 1px 3px #000;
+}
+#util-logo {
+    color: #efefef;
+    float: left;
+    line-height: 25px;
+    font-size: 11px;
 }
 #util-nav {
     color: #efefef;
